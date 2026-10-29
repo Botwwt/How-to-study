@@ -2,7 +2,7 @@
 
 > 记录我的论文阅读轨迹、核心方法解析与心得。
 
-### Dendritic computation for abstract rule-based flexible decision-making
+##  1. Dendritic computation for abstract rule-based flexible decision-making
 
 **auROC 和 ROI 是什么**：ROI 是感兴趣区域，指从钙成像图像中选出的记录区域，例如一段树突或一个胞体。同一个神经元可以贡献多个树突 ROI，因此 ROI 数量不一定等于神经元数量。auROC 是 ROC 曲线下面积，用于根据神经响应强弱，衡量两种条件有多容易区分。按照本文规则标签的定义，auROC 接近 0.5 表示难以区分两条规则，大于 0.5 表示偏好 Rule 1，小于 0.5 表示偏好 Rule 2；越接近 0 或 1，区分能力越强，但偏好方向不同。auROC 不等于分类准确率，也不等于具有规则选择性的神经元比例。
 
